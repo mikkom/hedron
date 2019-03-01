@@ -12,6 +12,8 @@ $$ |  $$ |\$$$$$$$\ \$$$$$$$ |$$ |      \$$$$$$  |$$ |  $$ |
 
 [View a landing page built with Hedron](https://jsbros.github.io/uigradients/).
 
+Build status:
+
 [![CircleCI](https://circleci.com/gh/mikkom/hedron.svg?style=svg)](https://circleci.com/gh/mikkom/hedron)
 
 ## Installation
