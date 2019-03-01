@@ -68,7 +68,7 @@ it('triggers proptype error', () => {
   console.error = jest.fn(() => { errorTriggered = true; });
 
   const renderer = ReactTestRenderer.create(<BrokenProps />);
-  expect(renderer.toJSON()).not.toBeNull();
+  expect(renderer.toJSON()).toBeNull();
   expect(errorTriggered).toBe(true);
 
   // $FlowFixMe: reassignment of console.error
